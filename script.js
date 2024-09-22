@@ -11,13 +11,13 @@ function addTask() {
     var li = document.createElement('li');
     li.textContent = taskInput.value;
 
-    // // Create a remove button
-    // var removeButton = document.createElement('button');
-    // removeButton.textContent = 'Remove';
-    // removeButton.className = 'remove-btn';
-    // removeButton.onclick = function () {
-    //     taskList.removeChild(li);
-    // };
+    // Create a remove button
+    var removeButton = document.createElement('button');
+    removeButton.textContent = 'Remove';
+    removeButton.className = 'remove-btn';
+    removeButton.onclick = function () {
+        taskList.removeChild(li);
+    };
 
     // // Add click event to mark as completed
     // li.onclick = function () {
