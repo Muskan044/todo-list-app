@@ -19,10 +19,10 @@ function addTask() {
         taskList.removeChild(li);
     };
 
-    // // Add click event to mark as completed
-    // li.onclick = function () {
-    //     li.classList.toggle('completed');
-    // };
+    // Add click event to mark as completed
+    li.onclick = function () {
+        li.classList.toggle('completed');
+    };
 
     // // Append the remove button to the list item
     // li.appendChild(removeButton);
